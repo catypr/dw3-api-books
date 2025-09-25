@@ -56,7 +56,9 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-
+```{
+    "err": "Erro interno do servidor!"
+   }
 
 ### - POST /book
 Esse endpoint é resposáveç por cadastrar um novo jogo no banco de dados.
@@ -73,7 +75,21 @@ publisher: Editora do livro.
 
 Exemplo de requisição:
 
-
+```{
+      "title": "Pessoas Normais",
+      "author": "Sally Rooney",
+      "genre": "Romance",
+      "publicationYear": 2018,
+      "isbn": "9788439736455",
+      "price": 42,32,
+      "publisher":[
+          {
+            "name" "Companhia das Letras",
+            "country": "Brasil",
+            "foundedYear": 1986
+         }
+      ]
+   }
 
 #### Respostas:
 
@@ -89,7 +105,9 @@ Caso essa resposta aconteça, significa que ocorreu um erro interno no servidor.
 
 Exemplo de resposta:
 
-
+``` {
+      "err": "Erro interno do Servidor!
+    } 
 
 ### - DELETE /book/
 Esse endpoint é responsável por deletar um livro específico pelo seu ID.
@@ -112,7 +130,9 @@ Caso essa requisição acontecça, siginifica que o ID fornecido é inválido.
 
 Exemplo de resposta:
 
-
+```{
+      "err": "ID inválido!"
+   }
 
 #### Erro Interno no Servidor1 500
 
@@ -120,7 +140,9 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-
+```{
+     "err": "Erro interno do Servidor!"
+   }
 
 ### - PUT /book/
 Esse endpoint é responsável por atualizar as infromações de um jogo específico pelo seu ID.
@@ -138,7 +160,21 @@ publisher: Editora do livro (opcional).
 
 Exemplo de requisição:
 
-
+```{
+      "title": "Lendários",
+      "author": "Tracy Deon",
+      "genre": "Fantasia",
+      "publicationYear": 2021,
+      "isbn": "9786555602661",
+      "price": 34,39,
+      "publisher":[
+          {
+            "name" "Intrínseca",
+            "country": "Brasil",
+            "foundedYear": 2003
+         }
+      ]
+   }
 
 #### Respostas: 
 
@@ -148,7 +184,21 @@ Caso essa resposta aconteça, as informações do livro forma atualizadas com su
 
 Exemplo de resposta:
 
-
+```{
+      "title": "Pessoas Normais",
+      "author": "Sally Rooney",
+      "genre": "Romance",
+      "publicationYear": 2018,
+      "isbn": "9788439736455",
+      "price": 42,32,
+      "publisher":[
+          {
+            "name" "Companhia das Letras",
+            "country": "Brasil",
+            "foundedYear": 1986
+         }
+      ]
+    }
 
 #### Requisição Inválida! 400
 
@@ -156,7 +206,9 @@ Caso essa resposta acpnteça, siginifica qie o ID fornecido é inválido ou s re
 
 Exemplo de resposta:
 
-
+```{
+      "err": "ID inválido ou dados malformados!"
+   }
 
 #### Erro Interno do Servidor! 500
 
@@ -164,7 +216,9 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-
+```{
+     "err": "Erro interno do Servidor!"
+   }
 
 ### - GET /book/
 Esse endpoint é responsável por retornar as inrformações de um livro específico pelo sei ID.
@@ -179,9 +233,23 @@ id: ID do jogo a ser consultado.
 
 Caso essa resposta aconteça, você vai receber as onformações do livro solicitado.
 
-Exemplo de repsosta:
+Exemplo de reposta:
 
-
+```{
+      "title": "Pessoas Normais",
+      "author": "Sally Rooney",
+      "genre": "Romance",
+      "publicationYear": 2018,
+      "isbn": "9788439736455",
+      "price": 42,32,
+      "publisher":[
+          {
+            "name" "Companhia das Letras",
+            "country": "Brasil",
+            "foundedYear": 1986
+         }
+      ]
+   }
 
 #### Não Encontrado! 404
 
@@ -189,7 +257,9 @@ Caso essa resposta aconteça, siginifica que o jogo com o ID fornecido não foi 
 
 Exemplo de resposta:
 
-
+```{
+      "err": "Livro não encontrado!"
+   }
 
 #### Requisição Inválida! 400
 
@@ -197,13 +267,18 @@ Caso essa resposta aconteça, siginifica que o ID fornecido é inválido.
 
 Exemplo de resposta:
 
-
+```{
+     "err": "ID inválido!"
+  }
 
 #### Erro Interno do Servidor! 500
 
 Caso essa resposta aconteça, siginifica qie ocorreu um erro inerno no servidor.
 
 Exemplo de resposta:
+```{
+     "err": "Erro interno do Servidor!"
+   }
 
 
 
