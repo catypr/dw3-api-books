@@ -15,7 +15,8 @@ Caso essa resposta aconteça, você vai receber a listagem de todos os livros.
 
 Exemplo de resposta:
 
-```{
+```
+  {
        "books": [
           {
             "title": "Lendários",
@@ -57,7 +58,8 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-```{
+```
+   {
     "err": "Erro interno do servidor!"
    }
 ```
@@ -77,7 +79,8 @@ publisher: Editora do livro.
 
 Exemplo de requisição:
 
-```{
+```
+{
       "title": "Pessoas Normais",
       "author": "Sally Rooney",
       "genre": "Romance",
@@ -108,7 +111,8 @@ Caso essa resposta aconteça, significa que ocorreu um erro interno no servidor.
 
 Exemplo de resposta:
 
-``` {
+```
+    {
       "err": "Erro interno do Servidor!
     }
 ```
@@ -134,7 +138,8 @@ Caso essa requisição acontecça, siginifica que o ID fornecido é inválido.
 
 Exemplo de resposta:
 
-```{
+```
+   {
       "err": "ID inválido!"
    }
 ```
@@ -145,7 +150,8 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-```{
+```
+   {
      "err": "Erro interno do Servidor!"
    }
 ```
@@ -166,7 +172,8 @@ publisher: Editora do livro (opcional).
 
 Exemplo de requisição:
 
-```{
+```
+   {
       "title": "Lendários",
       "author": "Tracy Deon",
       "genre": "Fantasia",
@@ -191,7 +198,8 @@ Caso essa resposta aconteça, as informações do livro forma atualizadas com su
 
 Exemplo de resposta:
 
-```{
+```
+  {
       "title": "Pessoas Normais",
       "author": "Sally Rooney",
       "genre": "Romance",
@@ -214,7 +222,8 @@ Caso essa resposta acpnteça, siginifica qie o ID fornecido é inválido ou s re
 
 Exemplo de resposta:
 
-```{
+```
+   {
       "err": "ID inválido ou dados malformados!"
    }
 ```
@@ -225,7 +234,8 @@ Caso essa resposta aconteça, siginifica que ocorreu um erro interno no servidor
 
 Exemplo de resposta:
 
-```{
+```
+  {
      "err": "Erro interno do Servidor!"
    }
 ```
@@ -245,7 +255,8 @@ Caso essa resposta aconteça, você vai receber as onformações do livro solici
 
 Exemplo de reposta:
 
-```{
+```
+  {
       "title": "Pessoas Normais",
       "author": "Sally Rooney",
       "genre": "Romance",
@@ -268,7 +279,8 @@ Caso essa resposta aconteça, siginifica que o jogo com o ID fornecido não foi 
 
 Exemplo de resposta:
 
-```{
+```
+   {
       "err": "Livro não encontrado!"
    }
 ```
@@ -279,7 +291,8 @@ Caso essa resposta aconteça, siginifica que o ID fornecido é inválido.
 
 Exemplo de resposta:
 
-```{
+```
+  {
      "err": "ID inválido!"
   }
 ```
