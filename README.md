@@ -49,6 +49,7 @@ Exemplo de resposta:
         }
     ]
 }
+```
 
 #### Erro Interno do Servidor! 500
 
@@ -59,6 +60,7 @@ Exemplo de resposta:
 ```{
     "err": "Erro interno do servidor!"
    }
+```
 
 ### - POST /book
 Esse endpoint é resposáveç por cadastrar um novo jogo no banco de dados.
@@ -90,6 +92,7 @@ Exemplo de requisição:
          }
       ]
    }
+```
 
 #### Respostas:
 
@@ -107,7 +110,8 @@ Exemplo de resposta:
 
 ``` {
       "err": "Erro interno do Servidor!
-    } 
+    }
+```
 
 ### - DELETE /book/
 Esse endpoint é responsável por deletar um livro específico pelo seu ID.
@@ -133,6 +137,7 @@ Exemplo de resposta:
 ```{
       "err": "ID inválido!"
    }
+```
 
 #### Erro Interno no Servidor1 500
 
@@ -143,6 +148,7 @@ Exemplo de resposta:
 ```{
      "err": "Erro interno do Servidor!"
    }
+```
 
 ### - PUT /book/
 Esse endpoint é responsável por atualizar as infromações de um jogo específico pelo seu ID.
@@ -175,6 +181,7 @@ Exemplo de requisição:
          }
       ]
    }
+```
 
 #### Respostas: 
 
@@ -199,6 +206,7 @@ Exemplo de resposta:
          }
       ]
     }
+```
 
 #### Requisição Inválida! 400
 
@@ -209,6 +217,7 @@ Exemplo de resposta:
 ```{
       "err": "ID inválido ou dados malformados!"
    }
+```
 
 #### Erro Interno do Servidor! 500
 
@@ -219,6 +228,7 @@ Exemplo de resposta:
 ```{
      "err": "Erro interno do Servidor!"
    }
+```
 
 ### - GET /book/
 Esse endpoint é responsável por retornar as inrformações de um livro específico pelo sei ID.
@@ -250,6 +260,7 @@ Exemplo de reposta:
          }
       ]
    }
+```
 
 #### Não Encontrado! 404
 
@@ -260,6 +271,7 @@ Exemplo de resposta:
 ```{
       "err": "Livro não encontrado!"
    }
+```
 
 #### Requisição Inválida! 400
 
@@ -270,6 +282,7 @@ Exemplo de resposta:
 ```{
      "err": "ID inválido!"
   }
+```
 
 #### Erro Interno do Servidor! 500
 
