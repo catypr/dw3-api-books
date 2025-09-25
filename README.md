@@ -15,7 +15,40 @@ Caso essa resposta aconteça, você vai receber a listagem de todos os livros.
 
 Exemplo de resposta:
 
-
+{
+    "books": [
+        {
+            "title": "Lendários",
+            "author": "Tracy Deon",
+            "genre": "Fantasia",
+            "publicationYear": 2021,
+            "isbn": "9786555602661",
+            "price": 34,39
+            "publisher": [
+            {
+                    "name": "Intrínseca",
+                    "country": "Brasil",
+                    "founedYear": 2003
+                }
+            ]
+        },
+        {
+            "title": "Pessoas Normais",
+            "author": "Sally Rooney",
+            "genre": "Romance",
+            "publicationYear": 2018,
+            "isbn": "9788439736455",
+            "price": 42,32
+            "publisher": [
+                {
+                    "name": "Companhia das Letras",
+                    "country": "Brasil",
+                    "foundedYear": 1986
+                }
+            ]
+        }
+    ]
+}
 
 #### Erro Interno do Servidor! 500
 
