@@ -302,7 +302,8 @@ Exemplo de resposta:
 Caso essa resposta aconteça, siginifica qie ocorreu um erro inerno no servidor.
 
 Exemplo de resposta:
-```{
+```
+   {
      "err": "Erro interno do Servidor!"
    }
 
