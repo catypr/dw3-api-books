@@ -265,7 +265,7 @@ Exemplo de resposta:
 # Cadastro do Usuário
 Essa parte da API é utilizada para o cadastro do usuário.
 
-## POST /user
+## -POST /user
 
 Esse endpoint é responsável por cadastrar um novo usuário no banco de dados.
 
