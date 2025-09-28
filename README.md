@@ -262,3 +262,42 @@ Exemplo de resposta:
    }
 ```
 
+# Cadastro do Usuário
+Essa parte da API é utilizada para o cadastro do usuário.
+
+## POST /user
+
+Esse endpoint é responsável por cadastrar um novo usuário no banco de dados.
+
+#### Parâmetros:
+
+name: Nome do usuário.
+email: E-mail do usuário.
+password: Senha do usuário.
+
+Exemplo de requisição:
+```
+{
+    "name": "Maria Clara",
+    "email": "mariaC@email.com",
+    "password": "698053",
+}
+```
+
+#### Respostas:
+
+#### Criado! 201
+
+Caso essa resposta aconteça, o novo jogo foi criado com sucesso.
+
+Exemplo de resposta: Nenhum conteúdo retornado.
+
+Erro Interno do Servidor! 500
+Caso essa resposta aconteça, significa que ocorreu um erro interno no servidor.
+
+Exemplo de resposta:
+```
+{
+  "err": Erro interno do servidor."
+}
+```
