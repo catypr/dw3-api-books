@@ -60,7 +60,7 @@ Exemplo de resposta:
     "err": "Erro interno do servidor!"
    }
 ```
-## - POST /books
+### - POST /books
 Esse endpoint é resposável por cadastrar um novo livro no banco de dados.
 
 #### Parâmetros:
