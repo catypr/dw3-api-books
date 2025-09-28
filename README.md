@@ -64,7 +64,13 @@ Exemplo de resposta:
 Esse endpoint é resposável por cadastrar um novo livro no banco de dados.
 
 #### Parâmetros:
-title: Título do livro. author: Autor(a) do livro. genre: Gênero do livro. publicationYear: Ano de publicação do livro. isbn: Identificador numérico do livro. price: Preço do livro. publisher: Editora do livro.
+title: Título do livro. 
+author: Autor(a) do livro. 
+genre: Gênero do livro. 
+publicationYear: Ano de publicação do livro. 
+isbn: Identificador numérico do livro.
+price: Preço do livro. 
+publisher: Editora do livro.
 
 Exemplo de requisição:
 
@@ -304,3 +310,10 @@ Exemplo de resposta:
   "err": Erro interno do servidor."
 }
 ```
+
+### -POST /login
+
+Esse endpoint é responsável por verificar se o usuário tem acesso permitido ou não.
+
+#### Parâmetro:
+
