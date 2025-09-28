@@ -318,3 +318,34 @@ Esse endpoint é responsável por verificar se o usuário tem acesso permitido o
 
 #### Parâmetro:
 
+id: Data do ID do login
+email: Data do E-mail do usuário
+
+Exemplo de requisição:
+```
+{
+    req.LoggedUser = {
+    id: data.id,
+    email: data.email,
+        };
+}
+```
+
+#### Respostas:
+
+#### Criado! 201
+
+Caso essa resposta aconteça, o usuário é válido.
+
+Exemplo de resposta: Usuário válido.
+
+#### Erro Interno do Servidor! 401
+
+Caso essa resposta aconteça, significa que o usuário não é válido.
+
+Exemplo de resposta:
+```
+{
+   "err": "Token inválido."
+}
+```
