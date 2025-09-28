@@ -64,9 +64,10 @@ Exemplo de resposta:
 Esse endpoint é resposável por cadastrar um novo livro no banco de dados.
 
 #### Parâmetros:
-title: Título do livro. \n
-author: Autor(a) do livro. 
-genre: Gênero do livro. 
+
+title: Título do livro.
+author: Autor(a) do livro.
+genre: Gênero do livro.
 publicationYear: Ano de publicação do livro. 
 isbn: Identificador numérico do livro.
 price: Preço do livro. 
