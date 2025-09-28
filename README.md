@@ -294,7 +294,8 @@ Caso essa resposta aconteça, o novo jogo foi criado com sucesso.
 
 Exemplo de resposta: Nenhum conteúdo retornado.
 
-Erro Interno do Servidor! 500
+#### Erro Interno do Servidor! 500
+
 Caso essa resposta aconteça, significa que ocorreu um erro interno no servidor.
 
 Exemplo de resposta:
