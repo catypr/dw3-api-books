@@ -262,6 +262,8 @@ Exemplo de resposta:
    }
 ```
 
+
+
 # Cadastro do Usuário
 Essa parte da API é utilizada para o cadastro do usuário.
 
